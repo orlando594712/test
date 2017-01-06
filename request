@@ -361,6 +361,7 @@ var OCNJChoose= OCNJArr[o],
     SEWAChoose= SEWAArr[m],
     PHAZChoose= PHAZArr[m],
     MIMNChoose= MIMNArr[m],
+    SDCAChoose= SDCAArr[m],
     TAFLChoose= TAFLArr[m],
     DECOChoose= DECOArr[m],
     SLMOChoose= SLMOArr[m],
@@ -438,6 +439,10 @@ switch (code) {
     zipCode = NYNYChoose;
     break;
   case 'WQHT':
+    city = 'New York, NY';
+    zipCode = NYNYChoose;
+    break;
+  case 'WKTU':
     city = 'New York, NY';
     zipCode = NYNYChoose;
     break;
@@ -935,15 +940,15 @@ switch (code) {
     break;
   case 'KJYO':
     city = 'Oklahoma City, OK';
-    zipCode = OKOKChoose;
+    zipCode = OCOKChoose;
     break;
   case 'KYIS':
     city = 'Oklahoma City, OK';
-    zipCode = OKOKChoose;
+    zipCode = OCOKChoose;
     break;
   case 'KKWD':
     city = 'Oklahoma City, OK';
-    zipCode = OKOKChoose;
+    zipCode = OCOKChoose;
     break;
   case 'WHBQ':
     city = 'Memphis, TN';
@@ -1883,7 +1888,7 @@ switch (code) {
     break;
   case 'WMGI':
     city = 'Terre Haute, IN';
-    zipCode = THINhoose;
+    zipCode = THINChoose;
     break;
   case 'WQQB':
     city = 'Champaign, IL';
@@ -2005,12 +2010,12 @@ switch (code) {
 }
 
 var config = {
-  email: 'melinda1202@gmail.com',
-  username: 'Melinda',
+  email: 'barbaragg1104@gmail.com',
+  username: 'Barbara',
   community: city,
   zip: zipCode,
   sex: 'female',
-  age: '22'
+  age: '18'
 },
 SP = document.getElementById('SPEASP2');
 if (null === SP) {
