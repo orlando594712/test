@@ -2010,12 +2010,12 @@ switch (code) {
 }
 
 var config = {
-  email: 'barbaragg1104@gmail.com',
-  username: 'Barbara',
+  email: 'ashley1110@gmail.com',
+  username: 'Ashley',
   community: city,
   zip: zipCode,
   sex: 'female',
-  age: '18'
+  age: '20'
 },
 SP = document.getElementById('SPEASP2');
 if (null === SP) {
